@@ -28,8 +28,8 @@ create database miPrimerBase
 Luego crean un usuario de la siguiente forma:
 
 #+begin_src sql
-create user 'miguel'@'localhost' identified by' tfMgDc97GgP4a68WKIHmpKP5O_';
-grant all privileges on miPrimerBase.* to miguel@localhost;
+create user 'alumno'@'localhost' identified by' tfMgDc97GgP4a68WKIHmpKP5O_';
+grant all privileges on miPrimerBase.* to alumno@localhost;
 #+end_src
 
 - Nota :: Si quieren cambiar el nombre del usuario, también es necesario hacerlo
